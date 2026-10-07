@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC World</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <style>
+        .gap {
+            gap: 1rem;
+        }
+
+        :root {
+            --custom-h: 24deg;
+            --custom-s: 85%;
+            --custom-l: 75%;
+            --bulma-primary-h: var(--custom-h);
+            --bulma-primary-s: var(--custom-s);
+            --bulma-primary-l: var(--custom-l);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                        <span class="is-size-4 has-text-weight-bold has-text-primary">PC WORLD</span>
+                    </a>
+
+                    <a role="button" class="navbar-burger js-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarTechMenu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarTechMenu" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="#">Inicio</a>
+
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">Componentes</a>
+                            <div class="navbar-dropdown is-boxed">
+                                <a class="navbar-item" href="#">Tarjetas de Video</a>
+                                <a class="navbar-item" href="#">Procesadores</a>
+                                <a class="navbar-item" href="#">Memorias RAM</a>
+                                <a class="navbar-item" href="#">Almacenamiento (M.2)</a>
+                                <a class="navbar-item" href="#">Tarjetas Madre</a>
+                                <a class="navbar-item" href="#">Enfriamiento Liquido</a>
+                                <hr class="navbar-divider">
+                                <a class="navbar-item" href="#">Gabinete y Accesorios</a>
+                            </div>
+                        </div>
+
+                        <a class="navbar-item" href="#">Quiénes Somos</a>
+                    </div>
+
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button is-primary">
+                                    <strong>Carrito (0)</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--HERO-->
+        <section class="hero is-info is-medium has-background-primary">
+            <div class="hero-body container">
+                <div class="columns is-vcentered">
+                    <div class="column is-12-mobile is-7-tablet is-8-desktop">
+                        <p class="title">¿Quiénes somos?</p>
+                        <p class="subtitle">
+                            Somos una empresa que brinda los mejores componentes tecnológicos de
+                            Honduras a precios que en ningún otro lado encontrarás, también con una gran variedad de
+                            productos. Nuestro objetivo es que no necesites buscar en otro lado ya que aquí
+                            encontrarás todo lo que una vez soñaste.
+                        </p>
+                    </div>
+                    <div class="column is-12-mobile is-5-tablet is-4-desktop has-text-centered">
+                        <figure class="image is-inline-block">
+                            <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/MSI_ensambje.jpg"
+                                alt="PC World Ensamblaje" class="is-rounded" style="max-height: 280px; width: auto;" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CARTAS-->
+        <section class="container is-max-widescreen mt-5 px-4">
+            <div class="columns is-multiline">
+                <div class="column is-12-mobile is-6-tablet is-4-desktop is-flex">
+                    <div class="card card-devices is-flex is-flex-direction-column is-fullwidth">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/5070RTX.jpg"
+                                    alt="RTX 5070" />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex is-flex-direction-column is-flex-grow-1">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">RTX 5070 ASUS PRIME</p>
+                                    <p class="subtitle is-6">@NVIDIA</p>
+                                </div>
+                            </div>
+                            <div class="content is-flex is-flex-direction-column is-flex-grow-1">
+                                <p>Equipada con 12 GB de memoria VRAM GDDR7 de alta velocidad y la arquitectura NVIDIA
+                                    Blackwell, ofrece un rendimiento excepcional en gaming 4K, Ray Tracing de alta
+                                    fidelidad y aceleración por Inteligencia Artificial con DLSS. Cuenta con un sistema
+                                    de refrigeración de triple ventilador Axial-tech y un diseño optimizado SFF-Ready.
+                                </p>
+                                <p><strong>Lanzamiento: 5 de marzo de 2025</strong></p>
+
+                                <div class="tags has-addons is-centered mt-auto pt-3">
+                                    <span class="tag is-dark is-medium">Precio</span>
+                                    <span class="tag is-success is-medium has-text-weight-bold">$650.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer p-3">
+                            <button class="button is-primary is-fullwidth">Comprar</button>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop is-flex">
+                    <div class="card card-devices is-flex is-flex-direction-column is-fullwidth">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/AIO360cooler.jpg"
+                                    alt="MasterLiquid 360 Core II" />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex is-flex-direction-column is-flex-grow-1">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">MasterLiquid 360 Core II</p>
+                                    <p class="subtitle is-6">@Cooler Master</p>
+                                </div>
+                            </div>
+                            <div class="content is-flex is-flex-direction-column is-flex-grow-1">
+                                <p>Sistema de refrigeración líquida AIO de alto rendimiento equipado con radiador de 360
+                                    mm, bomba Gen S de cámara dual optimizada y ventiladores ARGB de 120 mm para una
+                                    máxima disertación térmica y baja acústica. Compatible con sockets Intel LGA 1851 /
+                                    1700 y AMD AM5 / AM4.</p>
+                                <p><strong>Lanzamiento: 23 de enero de 2025</strong></p>
+
+                                <div class="tags has-addons is-centered mt-auto pt-3">
+                                    <span class="tag is-dark is-medium">Precio</span>
+                                    <span class="tag is-success is-medium has-text-weight-bold">$140.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer p-3">
+                            <button class="button is-primary is-fullwidth">Comprar</button>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop is-flex">
+                    <div class="card card-devices is-flex is-flex-direction-column is-fullwidth">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/CPU_i7_14thGEN.jpg"
+                                    alt="Intel Core i7 14700KF" />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex is-flex-direction-column is-flex-grow-1">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Intel Core i7 14700KF</p>
+                                    <p class="subtitle is-6">@Intel</p>
+                                </div>
+                            </div>
+                            <div class="content is-flex is-flex-direction-column is-flex-grow-1">
+                                <p>Procesador de alto rendimiento para gaming y creación de contenido. Cuenta con 20
+                                    núcleos (8 P-Cores y 12 E-Cores) y 28 hilos, capaz de alcanzar hasta 5.6 GHz con
+                                    Intel Turbo Boost Max 3.0. Requiere tarjeta gráfica dedicada y es compatible con
+                                    motherboards de socket LGA1700 (series 600 y 700) con soporte para memorias DDR4 y
+                                    DDR5.</p>
+                                <p><strong>Lanzamiento: 17 de octubre de 2023</strong></p>
+
+                                <div class="tags has-addons is-centered mt-auto pt-3">
+                                    <span class="tag is-dark is-medium">Precio</span>
+                                    <span class="tag is-success is-medium has-text-weight-bold">$385.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer p-3">
+                            <button class="button is-primary is-fullwidth">Comprar</button>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop is-flex">
+                    <div class="card card-devices is-flex is-flex-direction-column is-fullwidth">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/DDR5_6400MHz.jpg"
+                                    alt="Vengeance DDR5 6400MHz" />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex is-flex-direction-column is-flex-grow-1">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Vengeance DDR5 6400MHz</p>
+                                    <p class="subtitle is-6">@Corsair</p>
+                                </div>
+                            </div>
+                            <div class="content is-flex is-flex-direction-column is-flex-grow-1">
+                                <p>Kit de memoria RAM de alto rendimiento optimizado para plataformas Intel y AMD.
+                                    Ofrece frecuencias ultra rápidas de 6400 MHz para tiempos de carga mínimos,
+                                    multitarea exigente y renderizado acelerado, con disipador de calor de aluminio
+                                    compacto y soporte para perfiles Intel XMP 3.0.</p>
+                                <p><strong>Lanzamiento: 18 de mayo de 2022</strong></p>
+
+                                <div class="tags has-addons is-centered mt-auto pt-3">
+                                    <span class="tag is-dark is-medium">Precio</span>
+                                    <span class="tag is-success is-medium has-text-weight-bold">$135.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer p-3">
+                            <button class="button is-primary is-fullwidth">Comprar</button>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop is-flex">
+                    <div class="card card-devices is-flex is-flex-direction-column is-fullwidth">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/M.2.jpg"
+                                    alt="Crucial P510 NVMe 1TB" />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex is-flex-direction-column is-flex-grow-1">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Crucial P510 NVMe 1TB</p>
+                                    <p class="subtitle is-6">@Crucial</p>
+                                </div>
+                            </div>
+                            <div class="content is-flex is-flex-direction-column is-flex-grow-1">
+                                <p>Unidad de estado sólido M.2 NVMe PCIe 5.0 de alto rendimiento diseñada para cargas de
+                                    trabajo exigentes y gaming de última generación. Ofrece velocidades de lectura de
+                                    hasta 10,000 MB/s, garantizando tiempos de carga ultrarrápidos, máxima eficiencia
+                                    energética y alta durabilidad.</p>
+                                <p><strong>Lanzamiento: 12 de marzo de 2024</strong></p>
+
+                                <div class="tags has-addons is-centered mt-auto pt-3">
+                                    <span class="tag is-dark is-medium">Precio</span>
+                                    <span class="tag is-success is-medium has-text-weight-bold">$130.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer p-3">
+                            <button class="button is-primary is-fullwidth">Comprar</button>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop is-flex">
+                    <div class="card card-devices is-flex is-flex-direction-column is-fullwidth">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/Motherboard_ASUS.jpg"
+                                    alt="ASUS Prime B760-PLUS D4" />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex is-flex-direction-column is-flex-grow-1">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">ASUS Prime B760-PLUS D4</p>
+                                    <p class="subtitle is-6">@ASUS</p>
+                                </div>
+                            </div>
+                            <div class="content is-flex is-flex-direction-column is-flex-grow-1">
+                                <p>Tarjeta madre ATX diseñada para procesadores Intel Core de 14.ª, 13.ª y 12.ª
+                                    generación con socket LGA1700. Ofrece una entrega de energía robusta, soporte para
+                                    memoria DDR4 de hasta 5333 MHz (OC), PCIe 5.0, tres ranuras M.2 NVMe con disipadores
+                                    de calor integrados y conectividad avanzada con Ethernet de 2.5 Gb y USB 3.2 Gen 2x2
+                                    Type-C.</p>
+                                <p><strong>Lanzamiento: 3 de enero de 2023</strong></p>
+
+                                <div class="tags has-addons is-centered mt-auto pt-3">
+                                    <span class="tag is-dark is-medium">Precio</span>
+                                    <span class="tag is-success is-medium has-text-weight-bold">$160.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer p-3">
+                            <button class="button is-primary is-fullwidth">Comprar</button>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop is-flex">
+                    <div class="card card-devices is-flex is-flex-direction-column is-fullwidth">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/caseCoolerMaster.jpg"
+                                    alt="Cooler Master Elite 600" />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex is-flex-direction-column is-flex-grow-1">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Cooler Master Elite 600</p>
+                                    <p class="subtitle is-6">@Cooler Master</p>
+                                </div>
+                            </div>
+                            <div class="content is-flex is-flex-direction-column is-flex-grow-1">
+                                <p>Chasis de formato Media Torre con panel panorámico de cristal templado y soporte para
+                                    tarjetas madre ATX. Diseñado para un flujo de aire superior con soporte para doble
+                                    radiador de 360 mm, tarjetas gráficas de hasta 425 mm, puerto frontal USB 3.2 Gen 2
+                                    Type-C y ventiladores ARGB preinstalados.</p>
+                                <p><strong>Lanzamiento: 15 de agosto de 2024</strong></p>
+
+                                <div class="tags has-addons is-centered mt-auto pt-3">
+                                    <span class="tag is-dark is-medium">Precio</span>
+                                    <span class="tag is-success is-medium has-text-weight-bold">$119.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer p-3">
+                            <button class="button is-primary is-fullwidth">Comprar</button>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-4-desktop is-flex">
+                    <div class="card card-devices is-flex is-flex-direction-column is-fullwidth">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://raw.githubusercontent.com/GeorgeJJR/fotos/main/PCWORLD/monitorviewedge.jpg"
+                                    alt="Viewedge CS24FK 24&quot;" />
+                            </figure>
+                        </div>
+                        <div class="card-content is-flex is-flex-direction-column is-flex-grow-1">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Viewedge CS24FK 24"</p>
+                                    <p class="subtitle is-6">@Viewedge</p>
+                                </div>
+                            </div>
+                            <div class="content is-flex is-flex-direction-column is-flex-grow-1">
+                                <p>Monitor gamer de 23.8 pulgadas Full HD (1920x1080) con panel IPS, tasa de refresco
+                                    ultra fluida de 165Hz y 1ms de tiempo de respuesta. Cobertura del 105% sRGB,
+                                    compatible con AMD FreeSync, diseño sin bordes en 3 lados y entradas HDMI y
+                                    DisplayPort.</p>
+                                <p><strong>Lanzamiento: 9 de abril de 2024</strong></p>
+
+                                <div class="tags has-addons is-centered mt-auto pt-3">
+                                    <span class="tag is-dark is-medium">Precio</span>
+                                    <span class="tag is-success is-medium has-text-weight-bold">$100.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer p-3">
+                            <button class="button is-primary is-fullwidth">Comprar</button>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer mt-4">
+        <div class="content has-text-centered">
+            <p>
+                <strong>PC World</strong> by <a href="https://georgejjr.github.io/">Jorge Rodas</a>.
+                The source code is licensed
+                <a href="https://opensource.org/license/mit">MIT</a>. The
+                website content is licensed
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0//">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
